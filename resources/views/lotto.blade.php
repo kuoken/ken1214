@@ -9,11 +9,17 @@
 <body>
 <h2>今日你的幸運數字如下：</h2>
 <hr>
-<h3>特別號：{{ $lucky_number }}</h3>
 <ul>
+<h3>
+<th>預測中獎號碼：</th>
+
 @foreach ($numbers as $number)
-<li>{{ $number }}</li>
+  <tr>
+  <th>{{ $number }}</th>
+  </tr>
 @endforeach
+特別號：{{ $lucky_number }}
+</h3>
 </ul>
 </hr>
 </body>

@@ -21,13 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-    <br>
-    <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/">首頁 <span class="sr-only"></span></a>
-        <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/playlist/">播放清單</a>
-        <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/lucky/">樂透明牌</a>
-        <a href="https://laravel.bigcartel.com" class="ml-4 underline">Shop  </a>
-        </br>
-                 
+                     
          <div class="relative justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                 @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
