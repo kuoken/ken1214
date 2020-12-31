@@ -5,7 +5,7 @@
         <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/">首頁 <span class="sr-only"></span></a>
         <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/playlist/">播放清單</a>
         <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/lucky/">樂透明牌</a>
-        <a href="https://laravel.bigcartel.com" class="ml-4 underline">Shop  </a>
+        <a href="https://google.com" class="ml-4 underline">Google  </a>
     </br>
         </h2>
     </x-slot>
@@ -14,7 +14,8 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
    
-                <x-jet-welcome />
+             
+                
             </div>
         </div>
     </div>
