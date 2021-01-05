@@ -1,25 +1,24 @@
 <html lang="en">
   <head>
-        <title>選課系統</title>
+  <title>我的播放清單</title>
+ 
        
   </head>
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-            
-            <H2> 課程表 </H2>
-<table border="0" width="100%">
-  <tr bgcolor='#FFCCFF'>
-    <td style="width="20%"" align='center' valign="middle" >課程編號</td>
-    <td style="width="20%"" align='center' valign="middle">課程名稱</td>
-    <td style="width="20%"" align='center' valign="middle">課程時間</td> 
-    <td style="width="10%"" align='center' valign="middle"> 修別</td> 
-    <td style="width="20%"" align='center' valign="middle">授課老師</td>
-    <td style="width="10%"" align='center' valign="middle">課程資訊</td>
-   
-
-
-  </tr>
+           
+        <div class="container">
+        <h1>我的播放清單</h1>
+        <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/">首頁 <span class="sr-only"></span></a>
+        <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href='/lucky/'>樂透</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href='/playlist/'>播放清單</a>
+        </li>
+        </ul>
   
             </div>
         </div>

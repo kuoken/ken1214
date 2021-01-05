@@ -19,6 +19,9 @@ class PlayListController extends Controller
 
     public function append(Request $req) {
       $title = $req -> input('title'); 
+      if (empty($title))
+            return "請輸入文字";
+    else
       $playlist = new PlayList; 
       $playlist -> name =$title;
       $playlist -> save();
