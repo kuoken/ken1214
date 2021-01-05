@@ -21,12 +21,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href='/lucky/'>樂透</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href='/playlist/'>播放清單</a>
-        </li>
         <li>
         <a class="nav-link" href="https://laravel.com/docs" >Laravel</a>
         </li>
