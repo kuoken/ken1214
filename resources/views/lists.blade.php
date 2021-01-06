@@ -15,7 +15,7 @@
     <div class="container">
         <h1>我的播放清單</h1>
         <hr>
-<form action="/append/" method= post>
+<form action="/append" method=post>
 @csrf
 清單名稱: <input type="text" name="title" size=40>
 <input type="submit" value="新增">

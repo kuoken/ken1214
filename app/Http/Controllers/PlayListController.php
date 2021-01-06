@@ -30,3 +30,4 @@ class PlayListController extends Controller
         return redirect("/playlist/");
     }
 }
+
