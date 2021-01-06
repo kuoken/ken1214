@@ -18,13 +18,15 @@ class PlayListController extends Controller
     }
 
     public function append(Request $req) {
-      $title = $req -> input('title'); 
-      if (empty($title))
-            return "年輕不要留白";
-    else
-      $playlist = new PlayList; 
-      $playlist -> name =$title;
-      $playlist -> save();
+    if ($req->isMethod('post')) {
+        $title = $req -> input('title'); 
+        if (empty($title))
+            return "年輕請不要留白";
+        else
+          $playlist = new PlayList; 
+          $playlist -> name =$title;
+           $playlist -> save();
+        }
         return redirect('/playlist/');
     }
 }

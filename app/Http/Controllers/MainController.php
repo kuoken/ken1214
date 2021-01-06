@@ -17,7 +17,7 @@ class MainController extends Controller
 	if ($req->isMethod('post')) {
 		$title = $req->input('title');
 	    if (empty($title))
-           return "年輕不要留白";
+           return "年輕請不要留白";
         else
     	   $data = new Headlines;
     	   $data->title = $title;
