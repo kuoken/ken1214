@@ -48,7 +48,7 @@
   </div>
 </nav>
 @auth
-<form method='post' action="/insert/">
+<form action="/insert" method=post>
     @csrf
 最新消息:<input type=text size=40 name=title>
 <input type=submit value="新增">
@@ -56,14 +56,15 @@
 </form>
 @endauth
 <table class="table table-striped">
-   <tr><th>編號</th><th>馬路消息</th><th>時間</th><th>管理</th>
+   <tr><th>編號</th><th>馬路消息</th><th>時間</th>@auth<th>管理</th>@endauth
    @foreach ($titles as $item)
 <tr>
     <td>{{$item -> id}}</td>
     <td>{{$item -> title}}</td>
     <td>{{$item -> created_at}}</td>
+    @auth
     <td><a href="/myremove/{{$item -> id}}/">刪除</a></td>
-    
+    @endauth
 </tr>
 @endforeach 
 </table>

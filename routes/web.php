@@ -7,20 +7,20 @@ use App\Http\Controllers\MainController;
 
 
 
-Route::get('/', [MainController::class, 'index']);
-Route::post('/insert/', [MainController::class, 'insert']);
-Route::get('/myremove/{id}',[MainController::class, 'delete']);
-Route::post('/myremove/{id}',[MainController::class, 'remove']);
-Route::get('/mylogout/',[MainController::class, 'logout']);
-Route::post('/mylogout/',[MainController::class, 'logout']);
+Route::get('/', [MainController::class, "index"]);
+Route::post('/insert/', [MainController::class, "insert"]);
+Route::get('/myremove/{id}',[MainController::class, "delete"]);
+Route::post('/myremove/{id}',[MainController::class, "remove"]);
+Route::get('/mylogout/',[MainController::class, "logout"]);
+Route::post('/mylogout/',[MainController::class, "logout"]);
 
 
-Route::get('/playlist/', [PlayListController::class, 'index']);
-Route::post('/playlist/', [PlayListController::class, 'index']);
-Route::get('/remove/{id}/',  [PlayListController::class, 'remove']);
-Route::post('/remove/{id}/',  [PlayListController::class, 'remove']);
-Route::get('/append/',  [PlayListController::class, 'append']);
-Route::post('/append/',  [PlayListController::class, 'append']);
+Route::get('/playlist/', [PlayListController::class, "index"]);
+Route::post('/playlist/', [PlayListController::class, "index"]);
+Route::get('/remove/{id}/',  [PlayListController::class, "remove"]);
+Route::post('/remove/{id}/',  [PlayListController::class, "remove"]);
+Route::get('/append/',  [PlayListController::class, "append"]);
+Route::post('/append/',  [PlayListController::class, "append"]);
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

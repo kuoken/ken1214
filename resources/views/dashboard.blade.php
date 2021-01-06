@@ -1,6 +1,6 @@
 <html lang="en">
   <head>
-  <title>我的播放清單</title>
+  <title>郭春收</title>
  
        
   </head>
@@ -9,7 +9,7 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
            
         <div class="container">
-        <h1>我的播放清單</h1>
+        <h1>郭春收的網頁</h1>
         <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/">首頁 <span class="sr-only"></span></a>
         <ul class="navbar-nav">
         <li class="nav-item">
