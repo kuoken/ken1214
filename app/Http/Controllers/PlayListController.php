@@ -25,8 +25,8 @@ class PlayListController extends Controller
         else
           $playlist = new PlayList; 
           $playlist -> name =$title;
-           $playlist -> save();
+          $playlist -> save();
         }
-        return redirect('/playlist/');
+        return redirect("/playlist/");
     }
 }

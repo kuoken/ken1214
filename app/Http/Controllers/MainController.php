@@ -21,7 +21,7 @@ class MainController extends Controller
         else
     	   $data = new Headlines;
     	   $data->title = $title;
-		  $data->save();
+		   $data->save();
 		}
 		  return redirect("/");
 	}

@@ -10,7 +10,8 @@
            
         <div class="container">
         <h1>郭春收的網頁</h1>
-        <a class="ml-4 text-sm:items-center text-gray-700 underline" href="/">首頁 <span class="sr-only"></span></a>
+        <th><a class="nav-link" href="/">首頁</a></th>
+        <th><a class="nav-link" href="/mylogout/">登出</a></th>
         <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href='/lucky/'>樂透</a>
