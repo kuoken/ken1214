@@ -9,7 +9,7 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex ">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                     <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                         {{ __('歡迎光臨 郭春收的網站') }}
